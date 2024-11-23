@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Viaje a París</title>
+</head>
+<body>
+
+<header>
+    <h1>Descubre París</h1>
+    <p><strong>La Ciudad de la Luz</strong> te espera con sus maravillas, gastronomía y cultura.</p>
+</header>
+
+<nav>
+    <a href="#actividades">Actividades</a>
+    <a href="#gastronomia">Gastronomía</a>
+    <a href="#galeria">Galería</a>
+</nav>
+
+<section id="actividades">
+    <h2>¿Qué hacer en París?</h2>
+    <p>París está llena de actividades fascinantes para todos los gustos. Algunas recomendaciones:</p>
+    <ul>
+        <li>Visitar la <strong>Torre Eiffel</strong>, el símbolo más icónico de Francia.</li>
+        <li>Pasear por los <em>Campos Elíseos</em> y disfrutar de sus tiendas y restaurantes.</li>
+        <li>Explorar el <em>Museo del Louvre</em>, hogar de la famosa <strong>Mona Lisa</strong>.</li>
+    </ul>
+</section>
+
+<section id="gastronomia">
+    <h2>La Gastronomía de París</h2>
+    <p>París es un paraíso para los amantes de la comida. Aquí tienes algunos platos imprescindibles:</p>
+    <ol>
+        <li><strong>Croissants</strong>: Deliciosos y perfectos para el desayuno.</li>
+        <li><em>Escargots</em>: Caracoles preparados con mantequilla y ajo, una delicia única.</li>
+        <li><strong>Crêpes</strong>: Dulces o salados, siempre irresistibles.</li>
+    </ol>
+</section>
+
+    <h2>Galería de Imágenes</h2>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/300?text=Torre+Eiffel" alt="Torre Eiffel">
+        <img src="https://via.placeholder.com/300?text=Museo+Louvre" alt="Museo del Louvre">
+        <img src="https://via.placeholder.com/300?text=Campos+Elíseos" alt="Campos Elíseos">
+    </div>
+  <section id="tabla">
+    <h2>Planifica tu visita</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Lugar</th>
+                <th>Horario</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Torre Eiffel</td>
+                <td>9:00 AM - 12:00 AM</td>
+                <td>€25</td>
+            </tr>
+            <tr>
+                <td>Museo del Louvre</td>
+                <td>9:00 AM - 6:00 PM</td>
+                <td>€17</td>
+            </tr>
+            <tr>
+                <td>Paseo en barco por el Sena</td>
+                <td>10:00 AM - 10:00 PM</td>
+                <td>€20</td>
+            </tr>
+        </tbody>
+    </table>
+ </section>
+</body>
+<style>
+        body {
+            background-color: rgb(245, 245, 245);
+            color: rgb(34, 34, 34);
+        }
+        header {
+            background-color: rgb(33, 150, 243);
+        }
+        nav a {
+            color: rgb(33, 150, 243);
+        }
+        nav a:hover {
+            color: rgb(244, 67, 54);
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+        table, th, td {
+            border: 1px solid rgb(150, 150, 150);
+        }
+        th {
+            background-color: rgb(200, 200, 250);
+            text-align: center;
+        }
+        td {
+            text-align: center;
+        }
+    </style>
+</html>
